@@ -1,18 +1,27 @@
 package testNumber;
 
-import java.util.*;
+import java.util.InputMismatchException;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class interactiveInput {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число");
-        int entered_number = sc.nextInt();
 
-
-        if (entered_number > 7) {
-            System.out.println("Привет");
-        } else if (entered_number <= 7) {
-            System.out.println("Введенное число " + entered_number + " меньше допустимого для ввода.");
+        try {
+            var num = scanner.nextDouble();
+            if (num % 1 != 0) {
+                System.out.println("Введенное число " + num +  " является дробным");
+            } else if (num > 7) {
+                System.out.println("Привет");
+            } else if (num <= 7) {
+                System.out.println("Введенное число  " + num + " меньше допустимого к вводу значения");
+            }
+        } catch (InputMismatchException e) {
+            System.out.print("Введенное значение не является числом");
         }
     }
 }
