@@ -1,4 +1,4 @@
-package Test1Number;
+package testNumber;
 
 import java.util.*;
 
