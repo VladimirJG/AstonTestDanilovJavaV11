@@ -12,9 +12,9 @@ public class var2Input {
         System.out.println("Введите число");
 
         try {
-            var num = scanner.nextDouble();
+            double num = scanner.nextDouble();
             if (num % 1 != 0) {
-                System.out.println("Введенное число " + num +  " является дробным");
+                System.out.println("Введенное число " + num + " является дробным");
             } else if (num > 7) {
                 System.out.println("Привет");
             } else if (num <= 7) {
