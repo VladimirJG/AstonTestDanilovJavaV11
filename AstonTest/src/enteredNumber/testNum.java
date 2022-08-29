@@ -1,4 +1,4 @@
-package EnteredNumber;
+package enteredNumber;
 
 public class testNum {
     public static void main(String[] args) {
