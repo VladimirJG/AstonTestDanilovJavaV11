@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class interactiveInput {
+public class solution1 {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);

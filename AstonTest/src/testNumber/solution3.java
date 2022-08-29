@@ -3,7 +3,7 @@ package testNumber;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class var2Input {
+public class solution3 {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
@@ -12,9 +12,7 @@ public class var2Input {
 
         if (scanner.hasNextDouble()) {
             double num = scanner.nextDouble();
-            if (num % 1 != 0) {
-                System.out.println("Введенное число " + num + " является дробным");
-            } else if (num > 7) {
+             if (num > 7) {
                 System.out.println("Привет");
             } else if (num <= 7) {
                 System.out.println("Введенное число  " + num + " меньше допустимого к вводу значения");
