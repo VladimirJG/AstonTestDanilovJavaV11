@@ -1,11 +1,12 @@
-package testNumber;
+package EnteredNumber;
 
 public class testNum {
     public static void main(String[] args) {
-        enteredNumber(7.1);
+        enteredNumber(6.9);
     }
     private static void enteredNumber(double a) {
-
+// При необходимости сравнения вводимых дробных значений-условие "if" удалить,
+// условие "else if (a <= 7)" заменить на "if (a <= 7)".
         if (a % 1 != 0) {
             System.out.println("Введено дробное число " + a);
         } else if (a <= 7) {
