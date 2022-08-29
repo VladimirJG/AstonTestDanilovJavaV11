@@ -1,9 +1,9 @@
-package enteredNumber;
+package EnteredNumber;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class solution3 {
+public class Solution3 {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);

@@ -1,5 +1,5 @@
-package enteredName;
-public class entName {
+package EnteredName;
+public class EntName {
     public static void main(String[] args) {
         String enteredName = "ВяЧеСлАв";
 

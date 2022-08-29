@@ -1,10 +1,10 @@
-package enteredNumber;
+package EnteredNumber;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class solution1 {
+public class Solution1 {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);

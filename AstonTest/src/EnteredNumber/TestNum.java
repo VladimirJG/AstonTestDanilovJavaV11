@@ -1,6 +1,6 @@
-package enteredNumber;
+package EnteredNumber;
 
-public class testNum {
+public class TestNum {
     public static void main(String[] args) {
         enteredNumber(6.9);
     }

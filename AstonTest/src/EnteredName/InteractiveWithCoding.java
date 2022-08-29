@@ -1,8 +1,10 @@
-package enteredName;
-import java.util.*;
-public class entNameInteractive {
+package EnteredName;
+
+import java.util.Scanner;
+
+public class InteractiveWithCoding {
     public static void main(String[] args) {
-        Scanner sc=new Scanner (System.in);
+        Scanner sc=new Scanner (System.in,"CP866");
         System.out.println ("Введите имя");
         String enteredName = sc.next();
         if (enteredName.equalsIgnoreCase("Вячеслав")) {
