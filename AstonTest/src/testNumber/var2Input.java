@@ -1,6 +1,5 @@
 package testNumber;
 
-import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,7 +10,7 @@ public class var2Input {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число");
 
-        try {
+        if (scanner.hasNextDouble()) {
             double num = scanner.nextDouble();
             if (num % 1 != 0) {
                 System.out.println("Введенное число " + num + " является дробным");
@@ -20,8 +19,8 @@ public class var2Input {
             } else if (num <= 7) {
                 System.out.println("Введенное число  " + num + " меньше допустимого к вводу значения");
             }
-        } catch (InputMismatchException e) {
-            System.out.print("Введенное значение не является числом");
+        } else {
+            System.out.println("Введенное значение не является числом");
         }
     }
 }
