@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="enteredNumber2">
+    <output-path>$PROJECT_DIR$/out/artifacts/enteredNumber2</output-path>
+    <root id="archive" name="Solution3.jar">
+      <element id="module-output" name="AstonTest" />
+    </root>
+  </artifact>
+</component>
