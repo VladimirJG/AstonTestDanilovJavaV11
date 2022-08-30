@@ -4,6 +4,7 @@ public class TestNum {
     public static void main(String[] args) {
         enteredNumber(6.9);
     }
+
     private static void enteredNumber(double a) {
 // При необходимости сравнения вводимых дробных значений-условие "if" удалить,
 // условие "else if (a <= 7)" заменить на "if (a <= 7)".

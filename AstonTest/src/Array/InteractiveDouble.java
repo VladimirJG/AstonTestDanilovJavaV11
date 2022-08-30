@@ -17,7 +17,6 @@ public class InteractiveDouble {
                 array[i] = (int) input.nextDouble();
             }
             System.out.println("Введенные элементы кратные '3'");
-
             for (int num : array) {
                 if (num % 3 == 0) {
                     System.out.println(num);

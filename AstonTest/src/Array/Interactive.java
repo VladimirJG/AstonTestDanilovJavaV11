@@ -9,7 +9,6 @@ public class Interactive {
         int sizeArray = input.nextInt();
         int array[] = new int[sizeArray];
         System.out.println("Введите элементы массива");
-
         for (int i = 0; i < sizeArray; i++) {
             array[i] = input.nextInt();
         }
