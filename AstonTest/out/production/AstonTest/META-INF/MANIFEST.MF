@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: EnteredName.EntNameInteractive
+Main-Class: Array.InteractiveDouble
 
