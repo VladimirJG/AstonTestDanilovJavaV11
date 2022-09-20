@@ -1,4 +1,4 @@
-package EnteredName;
+package enteredName;
 
 import java.util.Scanner;
 

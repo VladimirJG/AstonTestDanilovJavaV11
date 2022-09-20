@@ -1,4 +1,4 @@
-package EnteredName;
+package enteredName;
 
 public class EntName {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package EnteredName;
+package enteredName;
 import java.util.*;
 public class EntNameInteractive {
     public static void main(String[] args) {

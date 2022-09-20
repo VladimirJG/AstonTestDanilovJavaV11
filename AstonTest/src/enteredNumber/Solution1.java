@@ -1,4 +1,4 @@
-package EnteredNumber;
+package enteredNumber;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
